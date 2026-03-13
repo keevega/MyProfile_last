@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/Inter-VariableFont_opsz,wght.woff2') format ('woff2');
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+}
+
+@theme {
+    /* Fuentes */
+    --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+.social-button {
+    @apply p-2 size-12 flex items-center justify-center rounded-full hover:scale-110 transition-transform;
+}

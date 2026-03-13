@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss_course",
+  "version": "1.0.0",
+  "description": "My portfolio in TailwindCSS",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "css": "npx @tailwindcss/cli -i ./public/input.css -o ./public/assets/output.css --watch",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "serve": "^14.2.0",
+    "tailwindcss": "^4.2.1"
+  }
+}
