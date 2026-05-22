@@ -538,6 +538,9 @@
   .border-yellow-950 {
     border-color: var(--color-yellow-950);
   }
+  .bg-\[\#25D366\] {
+    background-color: #25D366;
+  }
   .bg-\[\#663399\] {
     background-color: #663399;
   }
